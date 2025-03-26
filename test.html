@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="roster.css">
+    <script src="roster.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Title</h1>
+        <hr>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-button main-tabs" onclick="openTab('main-tabs', 'overview')">Overview</button>
+            <button class="tab-button main-tabs" onclick="openTab('main-tabs', 'watchtowers')">Watchtowers</button>
+        </div>
+    </div>
+
+    <!-- Elements -->
+    <div id="overview" class="tab-content main-tabs">
+        Overview Page
+    </div>
+
+    <div id="watchtowers" class="tab-content main-tabs">
+        Watchtower Page
+    </div>
+</body>
+
+</html>
